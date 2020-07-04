@@ -1,0 +1,12 @@
+<%- include("header") -%>
+<form action="/Login" class="form-signin" method="post">
+  <img class="mb-4" src="images\doctor.png" alt="" style="height: 200px; width: auto; padding-left: 23%;">
+  <h1 class="h3 mb-3 font-weight-normal text-center">Sign in</h1>
+  <input type="email" name="email" id="inputPassword bottom" class="form-control" placeholder="Email" required>
+  <input type="password" name="password" class="form-control" placeholder="Password" required>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in!</button>
+
+  <h5>Not Registered? <a href="Register">Register here</a></h5>
+
+</form>
+<%- include("footer") -%>

@@ -1,0 +1,16 @@
+<%- include("header") -%>
+
+<form action="/Register" class="form-signin" method="post">
+  <img class="mb-4" src="images\salutes.png" alt="" width=auto height="130px" style="float:right" ;>
+  <h1 class="h3 mb-3 font-weight-normal">Sign Up to Make your account!</h1>
+
+  <input type="text" name="fName" class="form-control top" placeholder="First Name" required autofocus>
+  <input type="text" name="lName" class="form-control middle" placeholder="Last Name" required>
+  <input type="email" name="email" id="inputPassword bottom" class="form-control" placeholder="Email" required>
+  <input type="password" name="password" class="form-control" placeholder="Password" required>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me up!</button>
+
+  <h5>Already Registered? <a href="Service">Login here</a></h5>
+
+</form>
+<%- include("footer") -%>

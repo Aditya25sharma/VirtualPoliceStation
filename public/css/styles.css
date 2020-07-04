@@ -1,0 +1,142 @@
+.topnav-right {
+  float: right;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.bg-img {
+  background-image: url("../images/background.jpg");
+  max-height: 50rem;
+  width: -webkit-fill-available;
+  position: relative;
+}
+
+/*
+.navset {
+  padding: 5% 15% 15%;
+  color: white;
+} */
+.navItem {
+  color: white;
+  font-size: 1.3125rem;
+  line-height: 1.2381;
+}
+
+.Home-background {
+  background-image: url("../images/background.jpg");
+  width: 100%;
+  background-size: cover;
+  min-height: 400px;
+  max-height: 800px;
+  display: block;
+  color: white;
+  letter-spacing: .9375rem;
+  word-spacing: 3px;
+  padding-left: .3125rem;
+  padding-right: .3125rem;
+  font-size: 3.75rem;
+  line-height: 1.64706;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.description {
+  padding-top: 8%;
+  place-content: center;
+}
+
+.description_card {
+  border: none;
+}
+
+.list_description {
+  list-style-type: "✓ ";
+  color: #888;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .0625rem;
+  font-size: 1.4rem;
+}
+
+.lock_key {
+  background-image: url("../images/lock_key2.jpg");
+  min-height: 430px;
+  max-height: 500px;
+  place-content: center;
+  background-size: cover;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: .9375rem;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.WallOfFame {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 2%;
+}
+
+.WallOfFame_description {
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  color: #888;
+  font-style: italic;
+  padding-bottom: 8%;
+}
+
+.lock_key2 {
+  background-image: url("../images/lock_key3.jpg");
+  min-height: 430px;
+  max-height: 500px;
+  place-content: center;
+  background-size: cover;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: .9375rem;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.service_section {
+  padding: 8% 17% 8% 17%;
+}
+
+.color888 {
+  color: #888;
+}
